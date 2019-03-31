@@ -1,0 +1,189 @@
+/*-----------------------------------------*/
+/* Basic Setup */
+/*-----------------------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html{
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(240, 95, 95, 0.9)), to(rgba(0, 0, 0, 0.7))), url(background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  color: #ffffff;
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+
+.row{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+
+
+.clearfix{zoom: 1}
+.clearfix:after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+
+
+
+/*-----------------------------------------*/
+/* Main Nav */
+/*-----------------------------------------*/
+
+
+.main-nav{
+  float: right;
+  list-style: none;
+  margin-top: 55px;
+}
+
+
+
+.main-nav li{
+  display: inline-block;
+  margin-left: 40px;
+}
+
+
+
+.main-nav li a:link,
+.main-nav li a:visited{
+  padding: 8px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s;
+}
+
+
+.main-nav li a:hover,
+.main-nav li a:active{
+  border-bottom: 2px solid #e67e22;
+}
+
+
+/* About */
+
+#about{
+	height: 635px;
+	width: 1600px;
+}
+
+
+
+
+#about_container{
+  height: 635px;
+}
+
+
+#about #left_article{
+	width: 715px;
+	height: 635px;
+  float: left;
+
+}
+
+
+
+#about #left_article #about_content{
+	width: 430px;
+  height: 635px;
+  text-align: left;
+	float: right;
+}
+
+
+
+
+#about #left_article #about_content h1{
+	font-family: YesevaOne;
+	font-size: 20px;
+	text-align: left;
+	color: #cc9900;
+	font-weight: bold;
+}
+
+
+
+
+#about #left_article p{
+	font-family: Lato Regular;
+	font-weight: normal;
+	font-size: 28px;
+	margin-top: 33px;
+	color: #ffffff;
+  margin-left: 35px;
+  text-align: left;
+}
+
+
+
+#about #left_article #about_content center p{
+	margin-top: 0;
+}
+
+
+
+
+#about #left_article #about_content #cook{
+	margin-top: 50px;
+	margin-left: 140px;
+}
+
+
+
+
+#about #right_article{
+  float: left; 
+  width: 670px;
+}
+
+
+
+
+
+#about #right_article #about_img{
+	width: 670px;
+	height: 635px;
+	float: left;
+}
+
+
+
+
+.hobby img{
+  width: 817px;
+  height: 560px;
+}
+
+
+.certificate{
+  width: 824px;
+  height: 600px;
+}
+
+
+
+
